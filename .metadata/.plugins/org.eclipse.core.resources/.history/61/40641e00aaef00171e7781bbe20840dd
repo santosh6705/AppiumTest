@@ -1,0 +1,11 @@
+package com.vodafone.basics;
+
+public class DataInputOutput {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+double a =11.1111111;
+System.out.println("hello");
+	}
+
+}

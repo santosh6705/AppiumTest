@@ -1,0 +1,45 @@
+package Package3;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class Excelreadwrite {
+
+	public static void main(String[] args) throws FileNotFoundException, IOException {
+		// TODO Auto-generated method stub
+		
+//		XSSFWorkbook wb=new XSSFWorkbook();
+//		XSSFSheet sh=wb.createSheet("Test");
+//		XSSFRow row=sh.createRow(0);
+//		XSSFCell cell=row.createCell(0);
+//		cell.setCellValue("jkflds");	
+//		wb.write(new FileOutputStream("Sample.xlsx"));
+//		wb.close();
+		
+		XSSFWorkbook wb=new XSSFWorkbook(new FileInputStream("Sample.xlsx"));
+		XSSFSheet sh=wb.getSheet("Test");
+		XSSFRow row=sh.getRow(0);
+		XSSFCell cell=row.getCell(0);
+		
+		try{
+		System.out.println(cell.getStringCellValue());
+		}
+		catch(IllegalStateException e){
+		if (e.getMessage().contains("NUMERIC"))	{
+			System.out.println(cell.getNumericCellValue());
+		}
+		else if (e.getMessage().contains("BOOLEAN")){
+			System.out.println(cell.getBooleanCellValue());
+		}
+		}
+		wb.close();
+		}
+
+}

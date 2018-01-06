@@ -1,0 +1,9 @@
+Feature: Login onto magento
+line1 description
+line2 description
+
+Scenario: happy path scenario
+Given I want t write a step with precondtion
+When I update my user name and password
+When I click on login button
+Then I should get access to the admin panel

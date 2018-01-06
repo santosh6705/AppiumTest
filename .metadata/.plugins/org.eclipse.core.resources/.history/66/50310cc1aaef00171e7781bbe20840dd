@@ -1,0 +1,15 @@
+package com.vodafone.basics;
+
+public class DataInputOutput {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+float a =11.111111111111f;
+System.out.println(a);
+
+String k="hello";
+System.out.println(k.equals("hello"));
+
+	}
+
+}

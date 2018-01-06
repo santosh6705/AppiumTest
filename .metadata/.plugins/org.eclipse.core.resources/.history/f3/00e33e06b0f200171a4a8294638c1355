@@ -1,0 +1,5 @@
+Feature: Login onto magento
+line1 description
+line2 description
+
+Scenario: happy path scenario

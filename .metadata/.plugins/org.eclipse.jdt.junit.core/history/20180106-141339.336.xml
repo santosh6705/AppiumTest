@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner (1)" project="Framework" tests="4" started="4" failures="0" errors="0" ignored="4">
+  <testsuite name="runner.Runner" time="0.039">
+    <testsuite name="Feature: Login onto magento" time="0.039">
+      <testsuite name="Scenario Outline: Negative scenario" time="0.039">
+        <testsuite name="Examples:" time="0.039">
+          <testsuite name="|  | user1 | pass2 |" time="0.0" incomplete="true">
+            <skipped/>
+            <testcase name="Given I want t write a step with precondtion" classname="|  | user1 | pass2 |" time="0.0" ignored="true"/>
+            <testcase name="When I update my &lt;user name&gt; and user1" classname="|  | user1 | pass2 |" time="0.0" ignored="true"/>
+          </testsuite>
+          <testsuite name="|  | user1 | pass2 |" time="0.0" incomplete="true">
+            <skipped/>
+            <testcase name="Given I want t write a step with precondtion" classname="|  | user1 | pass2 |" time="0.001" ignored="true"/>
+            <testcase name="When I update my &lt;user name&gt; and user1" classname="|  | user1 | pass2 |" time="0.0" ignored="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

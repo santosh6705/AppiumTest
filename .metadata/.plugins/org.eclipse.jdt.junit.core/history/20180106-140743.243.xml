@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner (1)" project="Framework" tests="4" started="4" failures="0" errors="2" ignored="2">
+  <testsuite name="runner.Runner" time="19.525">
+    <testsuite name="Feature: Login onto magento" time="19.525">
+      <testsuite name="Scenario Outline: Negative scenario" time="19.525">
+        <testsuite name="Examples:" time="19.525">
+          <testsuite name="|  | user1 | pass2 |" time="0.006" incomplete="true">
+            <error>org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-E7N0R4T', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10964, moz:profile: C:\Users\User\AppData\Local..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 1d4559b6-c422-4a73-b0d7-adce0a360aa8
+*** Element info: {Using=link text, value=MY ACCOUNT}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:425)&#13;
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)&#13;
+	at runner.stepdef.i_want_t_write_a_step_with_precondtion(stepdef.java:21)&#13;
+	at ✽.Given I want t write a step with precondtion(runner/Login.feature:15)&#13;
+&#13;
+</error>
+            <testcase name="Given I want t write a step with precondtion" classname="|  | user1 | pass2 |" time="0.005">
+              <error>org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-E7N0R4T', ip: '192.168.0.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10964, moz:profile: C:\Users\User\AppData\Local..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 1d4559b6-c422-4a73-b0d7-adce0a360aa8
+*** Element info: {Using=link text, value=MY ACCOUNT}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:425)&#13;
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)&#13;
+	at runner.stepdef.i_want_t_write_a_step_with_precondtion(stepdef.java:21)&#13;
+	at ✽.Given I want t write a step with precondtion(runner/Login.feature:15)&#13;
+&#13;
+</error>
+            </testcase>
+            <testcase name="When I update my &lt;user name&gt; and user1" classname="|  | user1 | pass2 |" time="0.0" ignored="true"/>
+          </testsuite>
+          <testsuite name="|  | user1 | pass2 |" time="0.0" incomplete="true">
+            <skipped/>
+            <testcase name="Given I want t write a step with precondtion" classname="|  | user1 | pass2 |" time="0.0"/>
+            <testcase name="When I update my &lt;user name&gt; and user1" classname="|  | user1 | pass2 |" time="0.0" ignored="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

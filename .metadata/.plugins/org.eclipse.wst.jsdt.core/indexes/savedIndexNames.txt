@@ -1,0 +1,6 @@
+INDEX VERSION 1.3+C:\Users\User\Desktop\Santosh\Appium\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+986269130.index
+3652880505.index
+1564296029.index
+2003092490.index
+1198084785.index
